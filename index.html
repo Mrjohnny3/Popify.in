@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Popify Bot - Premium Music Experience for Discord</title>
+    <meta name="title" content="Popify Bot - Premium Music Experience for Discord">
+    <meta name="description"
+        content="Popify Bot - A premium music experience for your Discord server with Spotify, YouTube Music, SoundCloud, and more.">
+
+    <!-- Open Graph / Facebook / Discord -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Popifybot-beta.vercel.app/">
+    <meta property="og:title" content="Popify Bot - Premium Music Experience for Discord">
+    <meta property="og:description"
+        content="Enhance your Discord server with premium music features including Spotify integration, high-quality audio, and advanced filters.">
+    <meta property="og:image" content="images/Popifybot.png">
+    <meta property="og:image:alt" content="Popifybot Bot Logo">
+    <meta property="og:site_name" content="Popify Bot">
+    <meta property="og:color" content="#ffcc00">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://Popifybot-beta.vercel.app/">
+    <meta property="twitter:title" content="Popify 
+    - Premium Music Experience for Discord">
+    <meta property="twitter:description"
+        content="Enhance your Discord server with premium music features including Spotify integration, high-quality audio, and advanced filters.">
+    <meta property="twitter:image" content="https://Popifybot-beta.vercel.app/assets/images/Popify-preview.png">
+
+    <!-- Theme Color for Browser -->
+    <meta name="theme-color" content="#ffcc00">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Popifybot.png" type="image/x-icon">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <img src="images/Popifybot.png" alt="Popify Bot Logo" class="loader-logo">
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a class='logo' href='/'>
+                    <img src="images/Popifybot.png" alt="Popifybot Bot Logo">
+                    <h1>Popify</h1>
+                </a>
+
+                <!-- Mobile menu toggle button -->
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="nav-container">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li><a href="#features" class="nav-link">Features</a></li>
+                            <li><a href="#commands" class="nav-link">Commands</a></li>
+                            <li><a href="#support" class="nav-link">Support</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-buttons">
+                        <a href="https://discord.gg/w77ymEU82a" class="btn btn-secondary" target="_blank">
+                            <i class="fab fa-discord"></i> <span>Support Server</span>
+                        </a>
+                        <a href="https://discord.com/oauth2/authorize?client_id=1234592539324059709&permissions=414530792793&integration_type=0&scope=bot+applications.commands"
+                            class="btn btn-primary" target="_blank">
+                            <i class="fas fa-plus"></i> <span>Add to Discord</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Discord Music Bot</div>
+                <h1 class="hero-title">Elevate Your Discord Server with Premium Music Experience!</h1>
+                <p class="hero-description">Hey, I'm Popify — A High-Quality Music Bot with Sweet Features and Smooth
+                    Sound.</p>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i class="fab fa-spotify"></i> Spotify Integration
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-music"></i> High Quality Audio
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-sliders-h"></i> Advanced Filters
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a
+                        href="https://discord.com/oauth2/authorize?client_id=1313410125620314112&permissions=238415168&integration_type=0&scope=bot+applications.commands">
+                        <i class="fas fa-plus"></i> Add to Discord
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-arrow-down"></i> See Features
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/Popifybot.png" alt="Popifybot Bot Logo" class="floating">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Popifybot Bot?</h2>
+                <p class="section-description">Enhance your Discord server with these amazing features</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <h3 class="feature-title">Spotify Integration</h3>
+                    <p class="feature-description">Play songs, albums, and playlists directly from Spotify. Connect your
+                        account for personalized recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3 class="feature-title">YouTube Music</h3>
+                    <p class="feature-description">Stream any YouTube video or music track with crystal-clear audio
+                        quality and no interruptions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fab fa-soundcloud"></i>
+                    </div>
+                    <h3 class="feature-title">SoundCloud Support</h3>
+                    <p class="feature-description">Discover indie artists and play SoundCloud tracks directly in your
+                        voice channels.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 class="feature-title">Advanced Filters</h3>
+                    <p class="feature-description">Customize your listening experience with bass boost, nightcore,
+                        karaoke, and vocal isolation filters.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 class="feature-title">Lyrics Support</h3>
+                    <p class="feature-description">Turn your Discord into a karaoke party with real-time lyrics from
+                        Genius and Musixmatch.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="feature-title">24/7 Playback</h3>
+                    <p class="feature-description">Keep your server alive with non-stop music that plays even when
+                        everyone's offline.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section class="commands" id="commands">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Flexible Controls & Commands</h2>
+                <p class="section-description">Control your music experience with intuitive commands</p>
+            </div>
+            <div class="commands-showcase">
+                <div class="command-categories">
+                    <div class="category active" data-category="music"><i class="fas fa-music"></i> Music</div>
+                    <div class="category" data-category="filters"><i class="fas fa-sliders-h"></i> Filters</div>
+                    <div class="category" data-category="playlist"><i class="fas fa-list"></i> Playlist</div>
+                    <div class="category" data-category="settings"><i class="fas fa-cog"></i> Settings</div>
+                    <div class="category" data-category="spotify"><i class="fab fa-spotify"></i> Spotify</div>
+                    <div class="category-progress-container">
+                        <div class="category-progress"></div>
+                    </div>
+                </div>
+                <div class="command-list">
+                    <!-- Command groups will be generated with JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support" id="support">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Community</h2>
+                <p class="section-description">Get help, share feedback, and connect with other server owners</p>
+            </div>
+            <div class="support-options">
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3 class="support-title">Support Server</h3>
+                    <p class="support-description">Join our Discord community for instant support, updates, and to
+                        connect with other Popifybot Bot users.</p>
+                    <a href="https://discord.gg/fvZtycwEmE" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Join Support Server
+                    </a>
+                </div>
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h3 class="support-title">Vote Now</h3>
+                    <p class="support-description">
+                        Show your love for Popifybot Bot by voting for us! Every single vote helps us grow and deliver
+                        even better features to you.
+                    </p>
+                    <a href="https://top.gg/bot/1313410125620314112" class="btn btn-secondary">
+                        <i class="fas fa-external-link-alt"></i> Vote Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a class='footer-logo' href='/'>
+                    <img src="images/Popifybot.png" alt="Popifybot Logo">
+                    <h2></h2>Popify Music
+                </a>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3><i class="fas fa-link"></i> Links</h3>
+                        <ul>
+                            <li><a href="#features"><i class="fas fa-chevron-right"></i> Features</a></li>
+                            <li><a href="#commands"><i class="fas fa-chevron-right"></i> Commands</a></li>
+                            <li><a href="#support"><i class="fas fa-chevron-right"></i> Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3><i class="fas fa-gavel"></i> Legal</h3>
+                        <ul>
+                            <li><a href="https://popify-bot-terms-of-service.vercel.app/" target="_blank"><i
+                                        class="fas fa-chevron-right"></i> Terms of Service</a></li>
+                            <li><a href="https://popify-bot-terms-of-service.vercel.app/" target="_blank"><i
+                                        class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3><i class="fas fa-globe"></i> Connect</h3>
+                        <ul>
+                            <li><a href="https://discord.com/invite/fvZtycwEmE" target="_blank"><i
+                                        class="fab fa-discord"></i> Discord</a></li>
+                            <li><a href="https://top.gg/bot/1313410125620314112" target="_blank"><i
+                                        class="fas fa-vote-yea"></i> Vote on DBL</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Popify Bot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Callback for Spotify Auth -->
+    <div id="spotify-callback" style="display: none;"></div>
+
+    <!-- JavaScript Files -->
+    <script src="js/preloader.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
